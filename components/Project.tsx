@@ -39,8 +39,8 @@ const Project = () => {
                            <p className='text-xs whitespace-nowrap'>Shadcn</p>
                         </div>
                         <div className='flex items-center gap-2 w-full mt-8 max-md:flex-col'>
-                            <Link target='_blank' className='w-full bg-gray-500 uppercase text-xs whitespace-nowrap transition-all hover:bg-gray-800 rounded-full font-bold text-white flex items-center justify-center px-4 py-2 gap-2 max-md:w-full' href="https://github.com/DonaldKisaka/PKW-corporate">
-                            <Image src="/github-icon.svg" loading="lazy" alt="GitHub" width={20} height={20} className="text-transparent max-sm:w-4 max-sm:h-4"/>
+                            <Link target='_blank' className='w-full bg-gray-500 uppercase text-xs whitespace-nowrap transition-all hover:bg-gray-800 rounded-full font-bold text-white flex items-center justify-center px-4 py-2 gap-2 max-md:w-full max-sm:w-4 max-sm:h-4' href="https://github.com/DonaldKisaka/PKW-corporate">
+                            <Image src="/github-icon.svg" loading="lazy" alt="GitHub" width={20} height={20} className="text-transparent"/>
                             Source code
                             </Link>
                         </div>
@@ -86,7 +86,7 @@ const Project = () => {
                            <p className='text-xs whitespace-nowrap'>Shadcn</p>
                         </div>
                         <div className='flex items-center gap-2 w-full max-md:flex-col'>
-                            <Link target='_blank' className='w-full bg-gray-500 uppercase text-xs whitespace-nowrap transition-all hover:bg-gray-800 rounded-full font-bold text-white flex items-center justify-center px-4 py-2 gap-2 max-md:w-full' href="https://github.com/DonaldKisaka/furniture-app">
+                            <Link target='_blank' className='w-full bg-gray-500 uppercase text-xs whitespace-nowrap transition-all hover:bg-gray-800 rounded-full font-bold text-white flex items-center justify-center px-4 py-2 gap-2 max-md:w-full max-sm:w-4 max-sm:h-4' href="https://github.com/DonaldKisaka/furniture-app">
                             <Image src="/github-icon.svg" loading="lazy" alt="GitHub" width={20} height={20} className="text-transparent max-sm:w-4 max-sm:h-4"/>
                             Source code
                             </Link>
@@ -136,7 +136,7 @@ const Project = () => {
                            <p className='text-xs whitespace-nowrap'>Shadcn</p>
                         </div>
                         <div className='flex items-center gap-2 w-full max-md:flex-col'>
-                            <Link target='_blank' className='w-full bg-gray-500 uppercase text-xs whitespace-nowrap transition-all hover:bg-gray-800 rounded-full font-bold text-white flex items-center justify-center px-4 py-2 gap-2 max-md:w-full' href="https://github.com/DonaldKisaka/Insyc">
+                            <Link target='_blank' className='w-full bg-gray-500 uppercase text-xs whitespace-nowrap transition-all hover:bg-gray-800 rounded-full font-bold text-white flex items-center justify-center px-4 py-2 gap-2 max-md:w-full max-sm:w-4 max-sm:h-4' href="https://github.com/DonaldKisaka/Insyc">
                             <Image src="/github-icon.svg" loading="lazy" alt="GitHub" width={20} height={20} className="text-transparent max-sm:w-4 max-sm:h-4"/>
                             Source code
                             </Link>
