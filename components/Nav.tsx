@@ -1,14 +1,17 @@
+'use client'
+
 import Link from "next/link";
-// import { useState } from "react";
+import { useState } from "react";
 
 const Nav = () => {
 
-    // const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
     
-    // const toggleMenu = () => {
-        // setIsOpen(!isOpen);
-    // }
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    }
     
+
   return (
     <>
       <header className="w-full pt-5 pb-10">
@@ -21,15 +24,15 @@ const Nav = () => {
                 <Link className="hover:text-white" href="/#contact">Contact</Link>
             </div>
             <div className="hidden max-md:flex">
-                <button type="button" className="text-white">
+                <button type="button" className="text-white cursor-pointer" onClick={toggleMenu}>
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-menu-2">
                    <path d="M4 6l16 0" /> 
                    <path d="M4 12l16 0" /> 
                    <path d="M4 18l16 0" />
                   </svg>
                 </button>
-                <div className="w-full h-screen flex flex-col px-6 py-11 fixed top-0 bottom-0 bg-dark-bg text-white transition-all ease-in-out z-50 -left-full">
-                    <button type="button" className="text-white self-end">
+                <div className={`w-full h-screen flex flex-col px-6 py-11 fixed top-0 bottom-0 bg-gray-900 text-white transition-all ease-in-out z-50 ${isOpen ? 'left-0' : '-left-full'}`}>
+                    <button type="button" className="text-white cursor-pointer self-end" onClick={toggleMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-x">
                             <path d="M18 6l-12 12" />
                             <path d="M6 6l12 12" />
@@ -37,10 +40,10 @@ const Nav = () => {
                     </button>
                     <ul className="flex flex-col text-[#D3D3D3] text-3xl font-semibold mt-32 gap-5 text-center">
                         <li>
-                            <Link className="hover:text-white" href="/#projects">Projects</Link>
+                            <Link className="hover:text-white" href="/#projects" onClick={toggleMenu}>Projects</Link>
                         </li>
                         <li>
-                            <Link className="hover:text-white" href="/#contact">Contact</Link>
+                            <Link className="hover:text-white" href="/#contact" onClick={toggleMenu}>Contact</Link>
                         </li>
                     </ul>
                 </div>
