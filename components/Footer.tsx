@@ -18,7 +18,7 @@ const Footer = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" className="tabler-icon tabler-icon-phone">
             <path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.11-.27c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1A17 17 0 0 1 3 5a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.27 1.11l-2.2 2.2z"></path>
             </svg>
-            <Link href="tel:+1234567890" className="hover:text-white transition-all">
+            <Link href="tel:+1234567890" className="hover:text-white transition-all whitespace-nowrap">
                +254 707412258
             </Link>
         </div>
