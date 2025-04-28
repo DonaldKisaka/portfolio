@@ -12,7 +12,7 @@ const Home = () => {
             <div className="relative w-44 h-44 min-h-44 rounded-full overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500 via-red-500 to-purple-500 rounded-full p-1">
                 <div className="w-full h-full bg-[#1a1a1a] rounded-full">
-                  <Image src="/sd2-01.jpg" alt="Profile" className="w-full h-full object-cover rounded-full border-white border-4" width={170} height={170}/>
+                  <Image src="/Don.png" alt="Profile" className="w-full h-full object-cover rounded-full border-white border-4" width={170} height={170}/>
                 </div>
               </div>
             </div>
