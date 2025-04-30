@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} antialiased bg-black`}>
         <div className="h-full w-full mx-auto max-w-[47.5rem] p-6">
           <Nav />
           {children}
